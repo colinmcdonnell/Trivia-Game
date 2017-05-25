@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<h1>DO YOU KNOW MUSIC?</h1>
+
+	<img src="assets/images/start-button.png" id="startButton">
+	<div id="timer"></div>
+	<div id="questionsBox">
+		<div class="question1">
+		<h3>Which guitar company is NOT a real brand?</h3>
+		<button class="wrong1">Ibanez</button>
+		<button class="wrong1">Gibson</button>
+		<button class="correct" id="question1">Hendrix</button>
+		<button class="wrong1">Fender</button>
+		</div>
+		<br>
+		<br>
+		<div class="question2">
+		<h3>What band wrote the album Dark Side of the Moon?</h3>
+		<button class="wrong2">Led Zeppelin</button>
+		<button class="wrong2">The Beatles</button>
+		<button class="wrong2">The Who</button>
+		<button class="correct" id="question2">Pink Floyd</button>
+		</div>
+		<br>
+		<br>
+		<div class="question3">
+		<h3>What instrument did Buddy Rich play?</h3>
+		<button class="correct" id="question3">Drums</button>
+		<button class="wrong3">Saxophone</button>
+		<button class="wrong3">Guitar</button>
+		<button class="wrong3">Piano</button>
+		</div>
+		<br>
+		<br>
+		<div class="question4">
+		<h3>How many keys are on most baby grand pianos?</h3>
+		<button class="correct" id="question4">88</button>
+		<button class="wrong4">82</button>
+		<button class="wrong4">98</button>
+		<button class="wrong4">92</button>
+		</div>
+		<br>
+		<br>
+		<div class="question5">
+		<h3>Which famous musician was fatally shot by his father on April 1, 1984?</h3>
+		<button class="wrong5">Gregg Allman</button>
+		<button class="wrong5">Carl Perkins</button>
+		<button class="wrong5">Warren Haynes</button>
+		<button class="correct" id="question5">Marvin Gaye</button>
+		</div>
+		<br>
+		<br>
+		<div class="question6">
+		<h3>Which 90's hip hop artist recorded the album Me Against the World in 1995?</h3>
+		<button class="wrong6">The Notorious B.I.G.</button>
+		<button class="correct" id="question6">Tupac</button>
+		<button class="wrong6">Ice Cube</button>
+		<button class="wrong6">Dr. Dre</button>
+		</div>
+	</div>
+
+	<h2 id="correctAnswers">Correct Answers:</h2>
+
+
+
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>
