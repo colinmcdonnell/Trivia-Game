@@ -26,6 +26,7 @@ h1 {
 }
 
 #questionsBox {
+	display: none;
 	width: 100%;
 	text-align: center;
 	padding: 20px 0;
